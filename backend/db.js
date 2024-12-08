@@ -2,7 +2,7 @@ const Pool = require("pg").Pool; // allows to configure our connection with db
 
 const pool = new Pool({
   host: "localhost",
-  user: "postgres",
+  user: "mysql",
   password: "Coffeehouse29",
   port: 5432,
   database: "noderegistration"
